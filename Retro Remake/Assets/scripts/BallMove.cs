@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ball : MonoBehaviour
+public class BallMove : MonoBehaviour
 {
 	public Rigidbody2D rb;
 	public float startingSpeed;
@@ -29,7 +29,7 @@ public class ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-	   
+	    
 	  
     }
 }
