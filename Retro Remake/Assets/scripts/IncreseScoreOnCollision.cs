@@ -6,6 +6,7 @@ public class IncreseScoreOnCollision : MonoBehaviour
 {
 	public ScoreCounter score;
 	
+	
 	public void OnTriggerEnter2D(Collider2D collission)
  {
  	score.currentScore++;
