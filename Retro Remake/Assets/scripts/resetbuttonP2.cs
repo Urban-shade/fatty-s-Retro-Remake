@@ -1,22 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ScoreCounter : MonoBehaviour
+public class resetbuttonP2 : MonoBehaviour
 {
-	public int currentScore;
-	public TMPro.TMP_Text scoreText;
     // Start is called before the first frame update
-    void Start()
+    public void OnPlayButton ()
     {
-        
+	    SceneManager.LoadScene(1);
     }
 
     // Update is called once per frame
     void Update()
     {
-	    scoreText.SetText(currentScore.ToString());
 	    
-	  
     }
 }

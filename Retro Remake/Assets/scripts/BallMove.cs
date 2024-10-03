@@ -21,8 +21,7 @@ public class BallMove : MonoBehaviour
 	    }
 	    
 	    
-	    float yVelocity = UnityEngine.Random.Range(3, 2);
-	    float yVelocity2 = UnityEngine.Random.Range(-3, 2);
+	    float yVelocity = UnityEngine.Random.Range(-3, 3);
 	    
 	    
 	    rb.velocity = new Vector2(xVelocity * startingSpeed, yVelocity * startingSpeed);
@@ -44,7 +43,7 @@ public class BallMove : MonoBehaviour
 			}
 	    
 	    
-			float yVelocity = UnityEngine.Random.Range(-2, 2);
+			float yVelocity = UnityEngine.Random.Range(-3, 3);
 	    
 	    
 			rb.velocity = new Vector2(xVelocity * startingSpeed, yVelocity * startingSpeed);
